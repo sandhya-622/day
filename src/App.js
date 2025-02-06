@@ -78,34 +78,48 @@
 
 // export default App;
 
-import React, { Component } from 'react'
-// import CBCPropsEx from './src./compnents./propsex./CBCPropsEx';
-import CBCPropsEx from './components/propsex/CBCPropsEx'
-import FBCPropEx from './components/propsex/FBCPropEX'
+// import React, { Component } from 'react'
+// // import CBCPropsEx from './src./compnents./propsex./CBCPropsEx';
+// import CBCPropsEx from './components/propsex/CBCPropsEx'
+// import FBCPropEx from './components/propsex/FBCPropEX'
 
-export default class App extends Component {
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <CBCPropsEx
+//         username="sanju"
+//         age={20}
+//         hobbies={["playing" , "reading books" , "stock"]}
+//         address={{city:"kamareddy" , area:"dmk"}}
+//         sendFun={function(){alert("hi i am sanju")}}
+//         />
+
+//       </div>
+//     )
+//   }
+// }
+
+
+// <FBCPropEx
+// username="Sanju"
+// isMarried={true}
+// hobbies={["Reading","Writing","Eating"]}
+// />
+
+
+import React, { Component } from 'react'
+
+export default class 
+FBCStateEx extends Component {
   render() {
     return (
       <div>
-        <CBCPropsEx
-        username="sanju"
-        age={20}
-        hobbies={["playing" , "reading books" , "stock"]}
-        address={{city:"kamareddy" , area:"dmk"}}
-        sendFun={function(){alert("hi i am sanju")}}
-        />
-
+        FBCStateEx
       </div>
     )
   }
 }
-
-
-<FBCPropEx
-username="Sanju"
-isMarried={true}
-hobbies={["Reading","Writing","Eating"]}
-/>
 
 
 
