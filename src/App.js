@@ -108,18 +108,56 @@
 // />
 
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export default class 
-FBCStateEx extends Component {
-  render() {
-    return (
-      <div>
-        FBCStateEx
-      </div>
-    )
-  }
+// export default class 
+// FBCStateEx extends Component {
+//   render() {
+//     return (
+//       <div>
+//         FBCStateEx
+//       </div>
+//     )
+//   }
+// }
+
+
+
+// import logo from './logo.svg';
+// import './App.css';
+// import FunctionalComponent from './components/FunctionalComponent';
+// import props from './src/propsex/FunctionalComponent'
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <FunctionalComponent clgNmae= 'mru' city='hyd'/>
+//       <h1>Welcome to  my React class {props.clgName}, {props.city}</h1>
+//       {props.child}
+
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+import './App.css';
+import FunctionalComponent from './components/FunctionalComponent';
+
+function App() {
+  return (
+    <div className="App">
+      
+      <FunctionalComponent clgName="mru" city="hyd" />
+
+      
+    </div>
+  );
 }
 
-
+export default App;
 
