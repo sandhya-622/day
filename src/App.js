@@ -145,19 +145,57 @@
 
 
 
+// import './App.css';
+// import classComponent from './components/classComponent';
+// import FunctionalComponent from './components/FunctionalComponent';
+// import './style.css'
+// function App() {
+//   return (
+//     <div className="App">
+//       <classComponent ></classComponent>
+      
+//       // <FunctionalComponent clgName="mru" city="hyd" />
+
+      
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// // import logo from './logo.svg'
+// import './App.css';
+// // import MyForm from './MyForm'; // Make sure it matches the case exactly with the file name
+// // import MyForm from './myform';  // Lowercase 'm'
+// import MyForm from './components/MyForm'; // Adjust to the correct path
+
+
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//      <MyForm></MyForm>
+//      </div>
+//   );
+// }
+
+// export default App;
+
+
 import './App.css';
-import FunctionalComponent from './components/FunctionalComponent';
+import MyForm from './components/MyForm';
+import myForm from './components/MyForm';
 
 function App() {
   return (
     <div className="App">
-      
-      <FunctionalComponent clgName="mru" city="hyd" />
-
-      
+      <myForm />
     </div>
   );
 }
 
 export default App;
+
 

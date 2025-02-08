@@ -1,9 +1,9 @@
-.heading{
+.heading1{
     color: burlywood;
     background-color: aliceblue;
 }
 
-.font-style{
-    font-size: 100px;
-    font-famliy: 'Times New Roman', Times; 
+.heading2{
+    color: bisque;
+    background-color: azure;
 }
