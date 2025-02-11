@@ -184,18 +184,62 @@
 // export default App;
 
 
-import './App.css';
-import MyForm from './components/MyForm';
-import myForm from './components/MyForm';
+// import './App.css';
+// import MyForm from './components/MyForm';
+// import myForm from './components/MyForm';
 
-function App() {
+// function App() {
+//   return (
+//     <div className="App">
+//       <myForm />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import React from 'react'
+// import React, { useEffect, useRef, useState} from 'react'
+// import VIDEO from "./video.mp4";
+
+// function App() {
+//   return (
+//     <div className= "App">
+//       <./"video123.mp4>"
+      
+//     </div>
+//   )
+// export default App
+
+
+
+
+// import React from 'react'
+// //import UseEffectEx from './Hooks/'
+// import RefExamples from './components/Hooks/RefExamples';
+// const App = () => {
+//   return (
+//     <div><RefExamples/></div>
+//   )
+// }
+
+// export default App;
+// App.js
+
+import React from 'react';
+// import { RefExamples } from './components/Hooks/RefExamples';
+import RefExamples from './components/Hooks/RefExamples';
+
+<video src="/video.mp4" controls />
+
+
+const App = () => {
   return (
     <div className="App">
-      <myForm />
+      <h1>Welcome to the React Ref Example!</h1>
+      <RefExamples /> {/* Render the RefExamples component here */}
     </div>
   );
 }
 
 export default App;
-
-
